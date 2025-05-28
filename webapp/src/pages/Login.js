@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-import { Container, Typography, TextField, Button, Snackbar } from '@mui/material';
-import { userNavigate } from 'react-router-dom';
+import { Container } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import H1 from '../components/h1';
 
 const Login = () => {
@@ -11,7 +11,7 @@ const Login = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
 
     const apiEndpoint = process.env.REACT_APP_API_ENDPOINT || 'http://localhost:8000';
-    const navigate = userNavigate();
+    const navigate = useNavigate();
 
     const handleLogin = async () => {
         try {

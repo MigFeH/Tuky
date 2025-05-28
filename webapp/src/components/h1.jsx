@@ -1,4 +1,4 @@
-import Typography from '@mui/material/Typography';
+import { Typography } from '@mui/material';
 
 const H1 = ({ children, id }) => (
   <Typography variant="h1" id={id}>
