@@ -2,7 +2,7 @@ import {useState} from 'react';
 import axios from 'axios';
 import { Container } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import H1 from '../components/h1';
+import CustomTypography from '../components/typography';
 
 const Register = () => {
     const [username, setUsername] = useState('');
@@ -51,7 +51,9 @@ const Register = () => {
 
     return (
         <Container component="main" maxWidth="xs">
-            <H1>Register</H1>
+            <CustomTypography variant="h1">
+                Register
+            </CustomTypography>
 
             
         </Container>

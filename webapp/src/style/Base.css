@@ -1,7 +1,18 @@
 
 /*
-*  Color principal: #D77B52
-*  Color secundario: #F5E6D4
+*  Background: #ffecd1
+*  Foreground: #78361c
 *  Color de acento (para destacar acciones): #FF715B
         Uso: botones, íconos activos, indicadores de acción... 
 */
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #78361c;
+    font-size: 2.5em;
+    margin-bottom: 1.25rem;
+}
