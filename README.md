@@ -1,1 +1,1 @@
-![Nuvio logo](https://github.com/user-attachments/assets/c16143b2-cad4-4999-a227-143b158274f7)
+![Tuky logo](https://github.com/user-attachments/assets/c851ad46-2d7e-4817-9ca4-b85c198a6c4c)
