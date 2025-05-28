@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,20 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+const AppContent = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+    </Routes>
+  );
+};
+
+const App = () => {
+  return (
+    <AppContent />
+  )
 }
 
 export default App;
